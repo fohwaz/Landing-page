@@ -21,6 +21,12 @@ footer,
   background-color: #1f2937;
 }
 
+footer {
+  text-align: center;
+  color: #f9faf8;
+  padding: 2rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -103,6 +109,54 @@ button.hero {
   width: 9rem;
   height: 2.5rem;
   text-align: center;
+}
+
+div.quote {
+  background-color: #e5e7eb;
+}
+
+p.quote {
+  text-align: justify;
+  font: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 10rem 17.5rem;
+}
+
+span {
+  margin-left: 36rem;
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+div.call-to-action {
+  padding: 7.5rem;
+}
+
+div.card {
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14rem;
+}
+
+div.left-card {
+  color: #f9faf9;
+}
+
+button.card {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 0.5rem;
+  border-radius: 12px;
+  border-color: #f9faf9;
 }
 
 .left,
